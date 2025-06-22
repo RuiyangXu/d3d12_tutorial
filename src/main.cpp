@@ -5,6 +5,6 @@
 
 int WINAPI WinMain(HINSTANCE hInstance, HINSTANCE, LPSTR, int nCmdShow)
 {
-    DXLearnSample sample{ 800, 600, L"D3D12" };
+    DXLearnSample sample{ 800, 600, L"D3D12_tutorial" };
     return Win32Application::Run(reinterpret_cast<DXSample*>(&sample), hInstance, nCmdShow);
 }
